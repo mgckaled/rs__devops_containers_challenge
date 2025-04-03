@@ -6,11 +6,13 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = "*"
-psycopg2-binary = "*"
+sqlite-utils = "*"
+httpx = "*"
 
 [dev-packages]
 pylint = "*"
 isort = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.11"
